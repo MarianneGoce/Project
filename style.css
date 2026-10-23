@@ -1,0 +1,85 @@
+/* Width and height calculations */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Styling page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff4df;
+    color: #252525
+}
+
+/* width and spacing of main content */
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* PlanSetGo title style  */
+h1 {
+    font-size: 52px;
+    margin-bottom: 5px;
+    color: #ef6c45;
+}
+
+/* Styles the tagline below the title */
+.tagline {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* Styles the preference form and recommendation cards */
+.card,
+.result-card {
+  background: white;
+  border-radius: 18px;
+  padding: 25px;
+  margin-top: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Makes each form label bold and adds spacing */
+label {
+  display: block;
+  margin-top: 18px;
+  font-weight: bold;
+}
+
+/* Styles the dropdown menus and buttons */
+select,
+button {
+  width: 100%;
+  padding: 13px;
+  margin-top: 8px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+/* Styles the main buttons */
+button {
+  margin-top: 25px;
+  background: #ef6c45;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Changes the button color when the mouse is over it */
+button:hover {
+  background: #d95732;
+}
+
+/* Styles each potential person to connect with */
+.person {
+  background: #fff4df;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 12px;
+}
