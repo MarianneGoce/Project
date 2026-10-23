@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Supports special characters -->
+    <meta charset="UTF-8" />
+
+    <!-- Makes the website fit on phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Information displayed in the browser tab -->
+    <title>PlanSetGo</title>
+
+    <!-- Connects HTML to the CSS file -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Main wrapper that contains the entire website -->
+    <main class="container">
+
+        <!-- Website name and tagline -->
+        <h1>PlanSetGo</h1>
+        <p class="tagline">Find something fun. Find your people.</p>
+
+        <!-- Card containing the user's preferences -->
+        <section class="card">
+            <h2>Plan your adventures</h2>
+
+            <!-- Time preference -->
+            <label>How much time do you have?</label>
+
+            <!-- ID lets JavaScript read the selected option -->
+            <select id="time">
+                <option>1-2 hours</option>
+                <option>2-4 hours</option>
+                <option>All day</option>
+            </select>
+
+            <!-- Interest preference -->
+            <label>What are you interested in?</label>
+
+            <select id="interest">
+                <option>Food and Coffee</option>
+                <option>Outdoor Activities</option>
+                <option>Music and Entertainment</option>
+                <option>Art and Culture</option>
+            </select>
+
+            <!-- Budget preference -->
+            <label>What is your budget?</label>
+
+            <select id="budget">
+                <option>Free</option>
+                <option>Under $20</option>
+                <option>$20-$50</option>
+            </select>
+
+            <!-- Runs the createAdventure function from script.js -->
+            <button onclick="createAdventure()">
+                Create my PlanSetGo
+            </button>
+        </section>
+
+        <!-- JavaScript will add recommendations here -->
+        <section id="results"></section>
+
+    </main>
+
+    <!-- Connects HTML to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
