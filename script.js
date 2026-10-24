@@ -76,6 +76,6 @@ asyn function generateAIPlan(time, interest, budget) {
 
   const data = await response.json();
 
-  return data.itenerary;
+  return data.itinerary;
 }
 
